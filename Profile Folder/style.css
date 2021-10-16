@@ -1,0 +1,512 @@
+/* Begin Navigation */
+body{
+    /* From Navigation */
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    /* From User Card */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.nav-title{
+    color: white;
+    font-size: 30px;
+    /* margin: 10px 15px; */
+    margin-left: 270px;
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 340px;
+    align-items: baseline;
+    margin-right: 315px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+strong{
+    color: white;
+}
+
+.btn{
+    color: white;
+    border-style: solid;
+    border-color: black;
+    background-color: turquoise;
+    color: white;
+    height: 27px;
+    margin-right: 270px;
+    width: 88px;
+}
+/* End Navigation */
+
+/* Begin Main Content */
+/* Full Container */
+.whole-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 57px;
+    margin-right: 57px;
+}
+
+/* Left Container */
+.container-left{
+    margin-left: 129px;
+}
+
+/* Right Container */
+.container-right{
+    margin-right: 129px;
+}
+
+/* Begin User Card */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  } */
+
+.user-card {
+    width: 630px;
+    height: 281px;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    margin: 0 auto;
+  }
+
+.user-header{
+    background-color: cornflowerblue;
+    /* display: flex; */
+    height: 77px;
+    /* margin-bottom: 20px; */
+  }
+
+#userlogo{
+    width: 80px;
+    position: relative;
+    top: 27px;
+    left: 30px;
+}
+
+.fullname{
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.location{
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 32px;
+}
+
+h4{
+    width: 53px;
+    margin-left: 9px;
+}
+
+#location_marker{
+    width: 13px;
+    margin-left: 8px;
+}
+
+.jobs{
+    position: relative;
+    bottom: 56px;
+    margin-left: 27px;
+}
+
+.slogan{
+    position: relative;
+    bottom: 65px;
+    margin-left: 27px;
+}
+
+.edit-profile {
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 92px;
+}
+
+#gear-icon{
+    width: 13px;
+    margin-left: 8px;
+}
+
+h5{
+    width: 71px;
+    margin-left: 9px;
+}
+
+.edit-link{
+    color: blue;
+}
+/* End User Card */
+
+/* Begin Education */
+.education{
+    width: 630px;
+    height: 195px;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+}    
+
+.education-header{
+    background-color: rgb(34, 36, 39);
+    display: flex;
+    height: 65px;
+    color: white;
+    /* margin-bottom: 20px; */
+}
+
+.top-title-education{
+    margin-top: 23px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.title-bootcamp {
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+
+.program-date{
+    position: relative;
+    bottom: 56px;
+    margin-left: 32px;
+    color: #a39f98;
+    font-weight: bolder;
+}
+    
+.curriculum{
+    position: relative;
+    bottom: 52px;
+    margin-left: 32px;
+    font-weight: bolder;
+}
+/* End Education */
+
+/* Begin Connection Requests */
+.connection-requests{
+    width: 348px;
+    height: 212px;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    margin: 0 auto;
+}
+
+.request-header{
+    background-color: rgb(34, 36, 39);
+    display: flex;
+    height: 65px;
+    color: white;
+    /* margin-bottom: 20px; */
+}
+
+.two-requests{
+    margin-top: 23px;
+    margin-left: 27px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    border-color: rgb(133, 130, 130);
+    background-color: rgb(133, 130, 130);
+    border-radius: 50%;
+    color: black;
+    border-style: solid;
+}
+
+.top-title-requests{
+    margin-top: 23px;
+    /* margin-left: 30px; */
+    display: flex;
+    margin-right: 8px;
+    padding-left: 18px;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* #userlogo{ 
+    width: 40px;
+    position: relative;
+    top: 27px;
+    left: 30px;
+}*/
+
+.first-profile{
+    height: 68px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-user-logo{
+    margin-top: 12px;
+    height: 43px;
+    width: 40px;
+    left: 30px;
+}
+
+.todd-e{
+    /* margin-top: 23px; */
+    /* margin-left: 30px; */
+    /* display: flex; */
+    /* align-items: center; */
+    font-size: 22px;
+    margin-top: 21px;
+    height: 23px;
+    margin-right: 55px;
+    justify-content: space-evenly;
+}
+
+#accept-request{
+    width: 40px;
+    height: 43px;
+    margin-left: 13px;
+    margin-top: 12px;
+    margin-right: 0px;
+}
+
+#deny-request{
+    width: 40px;
+    height: 43px;
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+#accept-request-two{
+    width: 40px;
+    height: 43px;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-right: 0px;
+}
+
+
+#deny-request-two{
+    width: 40px;
+    height: 43px;
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+.second-profile{
+    height: 68px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.phil-k{
+    font-size: 22px;
+    margin-top: 21px;
+    height: 23px;
+    margin-right: 55px;
+    justify-content: space-evenly;
+}
+
+#second-user-logo{
+    margin-top: 12px;
+    height: 43px;
+    width: 40px;
+    left: 30px;
+}
+/* End Connection Requests */
+
+/* Begin Your Connections */
+.your-connections{
+    width: 348px;
+    height: 374px;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+}
+
+.connection-header{
+    background-color: rgb(34, 36, 39);
+    display: flex;
+    height: 75px;
+    color: white;
+    /* margin-bottom: 20px; */
+}
+
+.five-hundred-connections{
+    margin-top: 23px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    border-color: rgb(133, 130, 130);
+    background-color: rgb(133, 130, 130);
+    border-radius: 100%;
+    color: black;
+    width: 65px;
+    border-style: solid;
+    justify-content: center;
+}
+
+.top-title-connections{
+    margin-top: 23px;
+    /* margin-left: 30px; */
+    display: flex;
+    margin-right: 8px;
+    padding-left: 22px;
+    align-items: center;
+    font-size: 22px;
+    width: 200px;
+}
+
+/* #userlogo{ 
+    width: 40px;
+    position: relative;
+    top: 27px;
+    left: 30px;
+}*/
+
+.first-connection-profile{
+    height: 63px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-user-connection-logo{
+    margin-top: 12px;
+    height: 43px;
+    width: 40px;
+    left: 30px;
+}
+
+.adrien-d{
+    /* margin-top: 23px; */
+    /* margin-left: 30px; */
+    /* display: flex; */
+    /* align-items: center; */
+    font-size: 22px;
+    margin-top: 21px;
+    height: 23px;
+    margin-right: 175px;
+    justify-content: space-evenly;
+}
+
+.second-connection-profile{
+    height: 63px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 18px;
+}
+
+.anne-j{
+    font-size: 22px;
+    margin-top: 21px;
+    height: 23px;
+    margin-right: 173px;
+    justify-content: space-evenly;
+}
+
+.second-user-connection-logo{
+    margin-top: 12px;
+    height: 43px;
+    width: 40px;
+    left: 30px;
+}
+
+.third-connection-profile{
+    height: 63px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 1px;
+}
+
+.third-user-connection-logo{
+    margin-top: 12px;
+    height: 43px;
+    width: 40px;
+    left: 30px;
+}
+
+.alayne-t{
+    font-size: 22px;
+    margin-top: 21px;
+    height: 23px;
+    margin-right: 175px;
+    justify-content: space-evenly;
+}
+
+.fourth-connection-profile{
+    height: 63px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 25px;
+}
+
+.fourth-user-connection-logo{
+    margin-top: 12px;
+    height: 43px;
+    width: 40px;
+    left: 30px;
+    padding-left: 3px;
+}
+
+.arry-y{
+    font-size: 22px;
+    margin-top: 21px;
+    height: 23px;
+    margin-right: 175px;
+    justify-content: space-evenly;
+}
+
+/* .view-more{ 
+    width: 345px;
+    height: 40px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    margin: 0 auto;
+}*/
+
+.view-more{
+    height: 42px;
+    width: 349px;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid;
+    margin-top: 2px;
+    border-color: grey;
+    border-left: none;
+    border-right: none;
+}
+
+.view-more-link{
+    display: flex;
+    align-items: center;
+    margin-right: 233px;
+    color: blue;
+}
+/* End Your Connections */
